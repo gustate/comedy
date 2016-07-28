@@ -384,10 +384,7 @@ section h3.section-subheading {
 	margin-bottom: 30px;
 }
 
-section#testimonials {
-    padding: 50px 0;
-}
-section#testimonials .popover {
+section#quotes .popover {
   position: relative;
   display: block;
   margin: 20px;
@@ -396,8 +393,23 @@ section#testimonials .popover {
 }
 
 
-section#testimonials img {
+section#quotes img {
     margin: 25px auto
+}
+
+@media (max-width:992px) {
+    section#quotes .popover.right>.arrow {
+        top: 20%;
+    }
+}
+
+@media (max-width:375px) {
+    section#quotes .logo-column {
+        display: none;
+    }
+    section#quotes .quote-column {
+        width: 100%;
+    }
 }
 
 section#contact {
