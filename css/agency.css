@@ -384,7 +384,19 @@ section h3.section-subheading {
 	margin-bottom: 30px;
 }
 
-aside.clients img {
+section#testimonials {
+    padding: 50px 0;
+}
+section#testimonials .popover {
+  position: relative;
+  display: block;
+  margin: 20px;
+  z-index: initial;
+  max-width: none;
+}
+
+
+section#testimonials img {
     margin: 25px auto
 }
 
