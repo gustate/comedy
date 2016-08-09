@@ -384,7 +384,7 @@ section h3.section-subheading {
 	margin-bottom: 30px;
 }
 
-section#quotes .popover {
+section#reviews .popover {
   position: relative;
   display: block;
   margin: 20px;
@@ -393,21 +393,21 @@ section#quotes .popover {
 }
 
 
-section#quotes img {
+section#reviews img {
     margin: 25px auto
 }
 
 @media (max-width:992px) {
-    section#quotes .popover.right>.arrow {
+    section#reviews .popover.right>.arrow {
         top: 20%;
     }
 }
 
 @media (max-width:375px) {
-    section#quotes .logo-column {
+    section#reviews .logo-column {
         display: none;
     }
-    section#quotes .quote-column {
+    section#reviews .quote-column {
         width: 100%;
     }
 }
