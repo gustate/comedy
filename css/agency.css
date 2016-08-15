@@ -50,11 +50,6 @@ h6 {
     font-weight: 700
 }
 
-section#hi h2,
-.navbar-default .nav li a.page-scroll.hi {
-	text-transform: none;
-}
-
 .img-centered {
     margin: 0 auto
 }
