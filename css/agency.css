@@ -279,6 +279,10 @@ header .intro-panel {
     padding-bottom: 0;
 }
 
+header .intro-panel .panel {
+    background-color: rgba(255,255,255,0.75);
+}
+
 header .intro-panel .btn-xl {
     margin-top: 15px;
     margin-bottom: 15px;
