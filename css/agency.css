@@ -357,6 +357,15 @@ section h3.section-subheading {
 	height: 100%;
 }
 
+#writing h2 {
+    margin-bottom: 25px;
+}
+
+#writing h3 {
+    text-transform: none;
+    margin-top: 5px;
+}
+
 #photos img {
     margin-bottom: 30px;
 }
