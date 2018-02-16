@@ -322,6 +322,9 @@ header h2 {
         line-height: 75px;
         margin-bottom: 25px
     }
+    header .btn-xl {
+        margin-top: 20px;
+    }
 }
 
 section {
