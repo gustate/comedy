@@ -334,7 +334,7 @@ section {
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px
+    margin-bottom: 25px
 }
 
 section h3.section-subheading {
@@ -367,13 +367,23 @@ section h3.section-subheading {
 	height: 100%;
 }
 
-#writing h2 {
-    margin-bottom: 25px;
+@media (max-width:767px) {
+    #writing img {
+        width: 100%;
+    }
 }
 
 #writing h3 {
     text-transform: none;
     margin-top: 5px;
+}
+
+#writing img {
+    margin-bottom: 10px;
+}
+
+#writing .btn {
+    margin-bottom: 15px;
 }
 
 #photos img {
@@ -447,21 +457,53 @@ section#reviews img {
     }
 }
 
-section#contact {
+section#follow {
     background-color: #222;
 }
 
-section#contact .section-heading {
+section#follow .section-heading {
     color: #fff
 }
 
-section#contact p {
+section#follow p {
     color: #aaa
 }
 
-section#contact .email {
+section#follow .email {
     color: #fff;
     font-size: 18px;
+}
+
+section#follow .btn {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+section#follow .form-control {
+    color: #333;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #9C27B0;
 }
 
 footer {
