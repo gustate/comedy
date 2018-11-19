@@ -270,6 +270,15 @@ header {
     color: #9C27B0
 }
 
+.album-image img {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.album-image img:hover {
+    border: 2px solid #9c27b0;
+}
+
 header .intro-text {
     padding-top: 75px;
     padding-bottom: 25px;
@@ -312,6 +321,7 @@ header h2 {
         padding-top: 250px;
         padding-bottom: 250px
     }
+
     header .intro-panel {
         padding-top: 150px;
         padding-bottom: 250px
@@ -345,6 +355,18 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
     margin-bottom: 75px
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    header .album-image {
+        padding-top: 200px;
+    }
+}
+
+@media (min-width:992px) {
+    header .album-image {
+        padding-top: 100px;
+    }
 }
 
 @media (min-width:768px) {
